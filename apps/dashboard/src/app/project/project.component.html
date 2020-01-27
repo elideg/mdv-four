@@ -1,0 +1,16 @@
+<div class="container">
+  <div class="col-6">
+    <mdv-four-project-list [projects]="projects$ | async"
+                            (selected)="selectProject($event)"
+                            (deleted)="deleteProject($event)">
+    </mdv-four-project-list>
+  </div>
+
+  <div class="col-6">
+    <mdv-four-project-details [project]="selectedProject"
+                                [form]="form"
+                                (cancelled)="cancel()"
+                                (saved)="saveProject($event)">
+    </mdv-four-project-details>
+  </div>
+</div>

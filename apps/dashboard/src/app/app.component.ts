@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'dashboard';
+  title = 'mdv-four';
+
+  links = [
+    { path: '/', icon: 'toc', title: 'Project' },
+    // { path: '/login', icon: 'lock', title: 'Login' }
+  ]
 }
+
+
