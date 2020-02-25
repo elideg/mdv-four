@@ -5,8 +5,8 @@ import { ProjectComponent } from './project/project.component';
 import { WildcardComponent } from './wildcard/wildcard.component';
 
 const routes: Routes = [
-  { path: '', component: ProjectComponent },
-  { path: 'login', component: LoginComponent },
+  { path: 'projects', component: ProjectComponent },
+  { path: '', component: LoginComponent },
   { path: '404', component: WildcardComponent },
   { path: '**', redirectTo: '404' }
 ]

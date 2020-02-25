@@ -9,8 +9,7 @@ export class AppComponent {
   title = 'mdv-four';
 
   links = [
-    { path: '/', icon: 'toc', title: 'Project' },
-    // { path: '/login', icon: 'lock', title: 'Login' }
+    { path: '/projects', icon: 'toc', title: 'Project' }
   ]
 }
 
